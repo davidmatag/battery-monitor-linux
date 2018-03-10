@@ -13,4 +13,4 @@ In the file "main.py" find this:
 For spanish change "`en`" to "`es`"
 
 # Screenshot
-<img src="https://ibb.co/i9X5nn" />
+<img src="https://image.ibb.co/nGSuf7/battery_monitor.png" />
