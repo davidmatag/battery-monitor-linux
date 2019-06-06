@@ -18,4 +18,4 @@ In the file "main.py" find this:
 For spanish change "`en`" to "`es`"
 
 # Screenshot
-<img src="https://image.ibb.co/nGSuf7/battery_monitor.png" />
+<img src="https://res.cloudinary.com/dzrar46ht/image/upload/v1559864365/Git/battery-monitor_cbweys.png" />
