@@ -1,21 +1,17 @@
 # Battery Monitor
-Low battery notifier like Windows, for Linux.
+Low battery notifier for Linux Systems.
 
-# Critical level
+# Notify Level
 
-Identify in your computer which is the critical level of the battery(percentage), and in the file "main.py" find this:
-`criticalBat = ` "put here the percentage(without %)"
+If you want to change the level battery that popups the notification, then in the file `battery.py` find this variable:
+`_notify_level` and change the value.
 
-For example if your critical battery level are 20%, so you need to put this: `criticalBat = 20`
+For example if you want to be notified at 20% level battery, you need to put this: `_notify_level = 20`
 
-Note: The default value is 10%, so if this your critical battery level are 10% you don't need to change anything.
+Note: By default the notification will popup at 10%.
 
-
-# Configure language of the notification:
-In the file "main.py" find this:
-`from low_battery_en import *`
-
-For spanish change "`en`" to "`es`"
+# Dependencies
+You must to install the package `python3-tk`.
 
 # Screenshot
-<img src="https://res.cloudinary.com/dzrar46ht/image/upload/v1559864365/Git/battery-monitor_cbweys.png" />
+<img src="https://res.cloudinary.com/dzrar46ht/image/upload/v1594246103/Git/battery-monitor-2_xkm5rx.png" />
